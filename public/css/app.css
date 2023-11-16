@@ -1,0 +1,127 @@
+/*ul{
+  position: fixed;
+  top: 0;
+  width:100%;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color:darkslateblue;
+}
+li{
+  float: right;
+}
+li a{
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}*/
+a{
+  text-decoration: none;
+  font-weight: 500;
+}
+section{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+/*Nav*/
+.navbar{
+  box-shadow: 0px 6px 30px rgba(0,0,0,0.09);
+}
+.navbar-brand{
+  font-weight: 700;
+  font-size: 26px;
+  color: #092032;
+}
+.navbar-brand span{
+  color:darkblue;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active{
+  color: #0e5e9b;
+}
+.bg-cover{
+  background-position: center !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.slide1{
+  background:linear-gradient(rgba(9, 32, 50, 0.1),rgba(9, 32, 50, 0.1)), url("../img/img4\ \(2\).jpg");
+}
+/*BTN*/
+.btn{
+  padding: 9px 24px;
+}
+.btn-app{
+  background-color: #0e5e9b;
+  color: #fff;
+  border-color:#0e5e9b;
+}
+.btn-app:hover{
+  color: #fff;
+  background-color: #064372;
+}
+/*Info Box*/
+.about-image{
+  border-radius: 50%;
+  width: 100%;
+  margin-left: 30px;
+}
+.info-box{
+  display: flex;
+  align-items: center;
+}
+.info-box img{
+  width: 90px;
+  margin-right: 28px;
+}
+.info-box div{
+  vertical-align:middle;
+}
+
+.footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: dimgray;
+}
+.spanc{
+  color: red;
+}
+/*Customer Registration And Driver Application*/
+.regimage{
+  background: url("../img/img7.jpg");
+  background-position: center !important;
+  background-size: cover !important;
+  padding-bottom: 20%;
+}
+.form{
+  width: 50%;
+  margin-top: 80px;
+  margin-bottom: 0;
+  padding-bottom: 80px;
+}
+.input{
+  border:none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  color:black;
+}
+.button{
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.appstatus{
+  padding-top: 10%; 
+  background:url('../img/img4\ \(2\).jpg');
+  background-size: cover !important;
+  background-position: center !important;
+  padding-bottom:20%;
+}
+.tabled{
+  color: white;
+}
