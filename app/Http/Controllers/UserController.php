@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Models\Product;
 
 class UserController extends Controller
 
@@ -17,5 +18,9 @@ class UserController extends Controller
             $req->session()->put('user',$user);
             return redirect('/product');
         }
+    }
+    function index(){
+        $data = Product::all();
+        return view('product',['products'=>$data]);
     }
 }
